@@ -25,9 +25,9 @@ public class TextController : MonoBehaviour {
 		livesCounter.text = "Lives:" + lives;
 		gameTimer.text = Time.timeSinceLevelLoad.ToString ("0.00");
 
-		if totalGems.Length = 0
-			Hero.SendMessage("Spawnalter");
-		
+		if (totalGems.Length == 0)
+			
+		Hero.SendMessage ("Spawnalter");
+		}
 	}
-
-}
+	
