@@ -12,6 +12,12 @@ public class Spawner : MonoBehaviour {
 		Spawned = false;
 		SpawnedPosition = new Vector3 (3.476466f, 5.341311f, 0f);
 
+		if (Spawned == false) {
+			Instantiate (altar, SpawnedPosition, Quaternion.identity);
+			Spawned = true;
+			Debug.Log ("Alter Spawned");
+		}
+
 	}
 	
 	// Update is called once per frame
